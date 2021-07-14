@@ -6,6 +6,8 @@ html {
 body {
 	padding: 0 7px 7px 7px;
 	width: 100%;
+	background: red;
+	border-radius: 80%;
 	background-color: #ccf;
 }
 .margin {
@@ -15,6 +17,11 @@ body {
 }
 
 #wrapper {
+	/*background: #405580;*/
+	/*background: linear-gradient(to right, #000044, #000044, #0cf, #000044, #000044);*/
+	/*background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);*/
+	/*background-image: linear-gradient(43deg, #000044 40%, #c850c0 100%);*/
+	/*background-image: linear-gradient(43deg, #c850c0 0%, #4158d0 46%, #ffcc70 100%);*/
 	background-image: linear-gradient(90deg, #c850c0 0%, #000044 100%);
 	height: 100%;
 	overflow: hidden;
@@ -39,6 +46,7 @@ body {
 	background-image: linear-gradient(43deg, #c850c0 0%, #000044 100%);
 	/*background-image: linear-gradient(43deg, #c850c0 0%, #4158d0 46%, #ffcc70 100%);*/
 	/*height: 720px;*/
+	/*margin-top: 3%;*/
 }
 #experience {
 	margin-top: 10%;
@@ -63,11 +71,35 @@ body {
 	text-align: center;
 }
 
+/*.contact {
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	background: #405580;
+	background: linear-gradient(to right, #000044, #0cf, #000044);
+	background-image: linear-gradient(43deg, #905580 0%, #c850c0 50%, #4158d0 100%);
+	height: auto;
+	padding-top: 4%;
+	margin-left: 24%;
+}*/
+#contact {
+	/*padding-top: 4%;*/
+	/*width: 100%*/
+	/*background: #000044;*/
+	/*height: 800px;	*/
+	/*background: linear-gradient(to right, #0cf, #000044, #000044, #0cf);*/
+	/*background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);*/
+	/*background-image: linear-gradient(43deg, #c850c0 0%, #4158d0 46%, #ffcc70 100%);*/
+	/*background-image: linear-gradient(43deg, #c850c0 0%, #000044 100%);*/
+	
+}
+
 .about {
 	float: left;
 	margin: 0 auto;
 	width: 50%;
 	height: auto;
+	/*padding: 0 4%;*/
 	margin-left: 5%;
 	overflow: hidden;
 
@@ -82,6 +114,25 @@ body {
 }
 #home a {
 	color: #9ff;
+}
+
+/*
+.doc {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	border-top: 1px solid #878E63;
+	background: #405580;
+	background: linear-gradient(to right, #0cf, #000044, #0cf);
+	animation: stretch, nudge 2s linear infinite alternate;
+	animation-duration: 2.5s;
+	animation-timing-function: ease-out;
+	animation-delay: 2;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
+	animation-play-state: running; 
+	border-radius: 100%
 }
 
 @keyframes stretch {
@@ -109,6 +160,7 @@ body {
 		transform: translate(-50px, 0);
 	}
 }
+*/
 
 .bigi {
 	background: #405580;
@@ -256,6 +308,7 @@ nav ul li a:hover {
 	margin: 0 auto;
 	max-width: 75%;
 	margin-top: 140px;
+	/*padding-bottom: 15%;*/
 }
 .blueberry {
 	max-width: 100%;
@@ -576,6 +629,7 @@ footer.second {
   		
 	}
 }
+
 /* Animation */
 
 /* Slide In */
@@ -596,3 +650,4 @@ footer.second {
 .experience-container.appear {
 	transform: translateX(0);
 }
+
