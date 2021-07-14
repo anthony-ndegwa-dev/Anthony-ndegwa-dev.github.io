@@ -603,3 +603,23 @@ footer.second {
   		
 	}
 }
+/* Animation */
+
+/* Slide In */
+.about-container {
+	transform: translateX(300%);
+	transition: transform 0.5s ease;
+}
+
+.about-container.appear {
+	transform: translateX(0);
+}
+
+.experience-container {
+	transform: translateX(-500%);
+	transition: transform 0.5s ease;
+}
+
+.experience-container.appear {
+	transform: translateX(0);
+}
