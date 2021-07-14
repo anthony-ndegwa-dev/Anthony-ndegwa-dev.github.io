@@ -39,7 +39,6 @@ body {
 	background-image: linear-gradient(43deg, #c850c0 0%, #000044 100%);
 	/*background-image: linear-gradient(43deg, #c850c0 0%, #4158d0 46%, #ffcc70 100%);*/
 	/*height: 720px;*/
-	margin-top: 3%;
 }
 #experience {
 	margin-top: 10%;
@@ -70,7 +69,7 @@ body {
 	width: 50%;
 	height: auto;
 	padding: 4%;
-	margin-left: 10%;
+	margin-left: 5%;
 	overflow: hidden;
 
 }
