@@ -5,7 +5,7 @@ window.addEventListener("scroll", easeContent);
 easeContent();
 
 function easeContent() {
-	const bottomOfPage = window.innerHeight * 0.7;
+	const bottomOfPage = window.innerHeight * 0.8;
 
 	content.forEach((contents) => {
 		const topOfContent = contents.getBoundingClientRect().top;
