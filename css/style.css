@@ -4,11 +4,8 @@ html {
 	background-color: #ccf;
 }
 body {
-	/*margin: 8px;*/
-	padding: 7px;
+	padding: 0 7px 7px 7px;
 	width: 100%;
-	background: red;
-	border-radius: 80%;
 	background-color: #ccf;
 }
 .margin {
@@ -18,11 +15,6 @@ body {
 }
 
 #wrapper {
-	/*background: #405580;*/
-	/*background: linear-gradient(to right, #000044, #000044, #0cf, #000044, #000044);*/
-	/*background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);*/
-	/*background-image: linear-gradient(43deg, #000044 40%, #c850c0 100%);*/
-	/*background-image: linear-gradient(43deg, #c850c0 0%, #4158d0 46%, #ffcc70 100%);*/
 	background-image: linear-gradient(90deg, #c850c0 0%, #000044 100%);
 	height: 100%;
 	overflow: hidden;
@@ -105,36 +97,16 @@ body {
 	overflow: hidden;
 
 }
-.doc {
+#home {
 	width: 100%;
-	height: 100%;
-	margin-top: 1%;
+	height: 100vh;
 	border-top: 1px solid #878E63;
 	background-image: linear-gradient(140deg, #000044 40%, #c850c0 100%);
 	/*background: #405580;*/
 	/*background: linear-gradient(to right, #0cf, #000044, #0cf);*/
 }
-.doc a {
+#home a {
 	color: #9ff;
-}
-
-/*
-.doc {
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
-	border-top: 1px solid #878E63;
-	background: #405580;
-	background: linear-gradient(to right, #0cf, #000044, #0cf);
-	animation: stretch, nudge 2s linear infinite alternate;
-	animation-duration: 2.5s;
-	animation-timing-function: ease-out;
-	animation-delay: 2;
-	animation-direction: alternate;
-	animation-iteration-count: infinite;
-	animation-fill-mode: none;
-	animation-play-state: running; 
-	border-radius: 100%
 }
 
 @keyframes stretch {
