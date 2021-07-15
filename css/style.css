@@ -598,3 +598,20 @@ footer.second {
 .experience-container.appear {
     transform: translateX(0);
 }
+
+.skills-container {
+	transform: translateX(500%);
+	transition: transform 0.5s ease;
+}
+
+.skills-container.appear {
+	transform: translateX(0);
+}
+.skill-container {
+	transform: translateX(-1500%);
+	transition: transform 0.5s ease;
+}
+
+.skill-container.appear {
+	transform: translateX(0);
+}
