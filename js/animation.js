@@ -1,5 +1,5 @@
 // Slide In
-const content = document.querySelectorAll(".about-container, .experience-container");
+const content = document.querySelectorAll(".about-container, .experience-container, .skills-container, .skill-container");
 
 window.addEventListener("scroll", easeContent);
 easeContent();
