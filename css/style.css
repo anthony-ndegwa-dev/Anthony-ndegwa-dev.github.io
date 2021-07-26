@@ -27,6 +27,7 @@ body {
 }
 #wrapper p {
     color: #fff;
+    font-size: 16px;
 }
 #wrapper h4 {
     color: #fff;
@@ -167,6 +168,7 @@ p {
     padding-right: 3%;
     padding-left: 3%;
     color: #fff;
+    font-size: 16px;
 
 }
 img {
