@@ -136,6 +136,9 @@ body {
     height: auto;
     padding-top: 6%;
 }
+img:hover {
+	transform: scale(1.1);
+}
 .vete img {
 	border-radius: 10%;
 	width: 80%;
