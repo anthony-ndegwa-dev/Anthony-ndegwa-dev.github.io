@@ -341,12 +341,15 @@ ul.social li img:hover {
     height: 30px;
     border-radius: 7px;
 }
-footer.second {
-    border-top: 1px solid #4D4E50;
-    background-color: #333333;
+.copyR {
+    border-top: 1px solid #ddd;
     max-height: 50px;
     text-align: center;
-    opacity: 0.95;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    opacity: 90%;
+    clear: both;
 }
 /*--------MEDIA!!!------*/
 @media screen and (max-width: 300px) {
@@ -529,10 +532,8 @@ footer.second {
 .topnav {
   background: url(images/tn.jpg) repeat left;
   overflow: hidden;  
-  /*border: 1px solid #99ffff;*/
   border-radius: 20px;
   width: 100%;  
-  /*box-shadow: 7px 7px 1px 1px;*/
   background: linear-gradient(#905580, #000044);
 }
 
@@ -622,4 +623,63 @@ footer.second {
 
 .skill-container.appear {
 	transform: translateX(0);
+}
+/* Styling for the modal overlay */
+#modal, #modal1, #modal2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+hr {
+    width: 100%;
+    border-bottom: 1px solid #fff; 
+}
+
+/* Styling for the modal content */
+.modal-content, .modal1-content, .modal2-content {
+  position: absolute;
+  text-align: left;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(#000, #000);
+  opacity: 90%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+/* Styling for the close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #fff;
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Styling for the close button on hover */
+.close:hover {
+  background-color: #f00;
+}
+
+/* Show the modal when the target is active */
+#modal:target {
+  display: block;
+}
+#modal1:target {
+  display: block;
+}
+#modal2:target {
+  display: block;
 }
