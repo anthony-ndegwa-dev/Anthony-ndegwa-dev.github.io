@@ -646,7 +646,7 @@ hr {
   width: 70%;
   height: 50%;
   overflow-y: scroll;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-image: linear-gradient(#000, #000);
